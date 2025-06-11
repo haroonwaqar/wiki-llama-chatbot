@@ -36,9 +36,7 @@ Open the script and set your key:
 os.environ ["TOGETHER_API_KEY"] = "your_api_key_here"
 
 🔁 Switching Between Wikipedia and LLaMA
-In the code file:
-  Function "send_message" uses Wikipedia to answer the question
-  Function "t_send_message" uses LLaMa to answer the question
+In the code file, Function "send_message" uses Wikipedia and Function "t_send_message" uses LLaMa to answer the questions
 
 ▶️ Running the App
 python ChatBot_Project.py
